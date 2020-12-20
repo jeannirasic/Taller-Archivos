@@ -15,7 +15,6 @@
 * Presentación de la teoría  (carpeta presentacion)
 
 ## Tablas del ejemplo
----
 La base de datos del ejemplo es de una galería de arte en la cual existen artistas, coleccionistas, vendedores y clientes. En esta galería se exhiben diferentes obras de arte para lo cuál se realizan exposiciones. Las exposiciones pueden ser individuales (un solo artista) o colectivas (muchos artistas). Cada cliente tiene un vendedor que lo ayuda con la compra de las obras de arte que desee adquirir y este obtiene una comisión por ello. A continuación se listan las tablas que hay en la base de datos y una pequeña descripción:
 
 #### Tabla TIPO_PERSONA
@@ -111,7 +110,6 @@ Esta tabla almacena el detalle de las ventas realizadas en las exposiciones de l
 | id_pieza_detalle | NUMBER | Llave foránea que almacena el identificador de la pieza de arte |
 
 ## Triggers
----
 Se crearon dos triggers que actualizan el campo del total en la venta al momento de agregar o eliminar piezas de arte de su respectivo detalle.
 
 #### Trigger SUMAR_TOTAL
@@ -148,7 +146,6 @@ END;
 ```
 
 ## Consultas y procedimientos almacenados
----
 Se realizaron 6 consultas y procedimientos almacenados que resumen los datos que fueron insertados en la base de datos. 
 
 #### Datos de la tarjeta dado el nombre de una obra
